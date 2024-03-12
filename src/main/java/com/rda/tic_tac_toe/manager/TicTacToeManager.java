@@ -16,7 +16,8 @@ public class TicTacToeManager {
     private final Map<String, TicTacToe> games;
 
     /**
-     * Map of players waiting to join a Tic-Tac-Toe game, with the player's name as the key.
+     * Map of players waiting to join a Tic-Tac-Toe game,
+     * with the player's name as the key.
      */
     protected final Map<String, String> waitingPlayers;
 
